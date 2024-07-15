@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concentration game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br />
+    <!---Div congtainer inception for all images, grid, board and headers for the game-->
+    <!-- The inception allows the targeted styles and interactivity to be selective.-->
+    <!--- h2-h3 had a <span> tag which allows the class to be targeted in JS and input to be placed in the span.-->
+    <div class="container">
+      <h1 class="heading">Concentration Game</h1>
+      <h2 class="heading">Player: <span id="playerName"></span></h2>
+      <br />
+      <h3 class="heading">Guesses Left: <span id="playerLivesCount"></span></h3>
+      <p id="countdown">0:30</p>
+      <br />
+      <br />
+      <div class="cards">
+        <div class="card" id="facepalm">
+          <img src="images/facePalm.png" alt="" />
+        </div>
+        <div class="card" id="firstorder">
+          <img src="images/firstorder.png" alt="" />
+        </div>
+        <div class="card" id="mordor">
+          <img src="images/mordor.png" alt="" />
+        </div>
+        <div class="card" id="nose">
+          <img src="images/nose.png" alt="" />
+        </div>
+        <div class="card" id="changeMind">
+          <img src="images/changeMind.png" alt="" />
+        </div>
+        <div class="card" id="Will">
+          <img src="images/Will.png" alt="" />
+        </div>
+        <div class="card" id="firegirl">
+          <img src="images/firegirl.png" alt="" />
+        </div>
+        <div class="card" id="SUTMM">
+          <img src="images/SUTMM.png" alt="" />
+        </div>
+        <div class="card" id="facepalm">
+          <img src="images/facePalm.png" alt="" />
+        </div>
+        <div class="card" id="firstorder">
+          <img src="images/firstorder.png" alt="" />
+        </div>
+        <div class="card" id="mordor">
+          <img src="images/mordor.png" alt="" />
+        </div>
+        <div class="card" id="nose">
+          <img src="images/nose.png" alt="" />
+        </div>
+        <div class="card" id="changeMind">
+          <img src="images/changeMind.png" alt="" />
+        </div>
+        <div class="card" id="Will">
+          <img src="images/Will.png" alt="" />
+        </div>
+        <div class="card" id="firegirl">
+          <img src="images/firegirl.png" alt="" />
+        </div>
+        <div class="card" id="SUTMM">
+          <img src="images/SUTMM.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!---Script tag to link JavaScript file to the HTML-->
+    <script src="game.js"></script>
+  </body>
+</html>
